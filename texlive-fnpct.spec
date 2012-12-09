@@ -1,11 +1,11 @@
-# revision 27551
+# revision 27180
 # category Package
 # catalog-ctan /macros/latex/contrib/fnpct
-# catalog-date 2012-08-28 08:56:10 +0200
+# catalog-date 2012-07-24 16:08:54 +0200
 # catalog-license lppl1.3
-# catalog-version 0.2f
+# catalog-version 0.2e
 Name:		texlive-fnpct
-Version:	0.2f
+Version:	0.2e
 Release:	1
 Summary:	Manage footnote marks' interaction with punctuation
 Group:		Publishing
@@ -58,3 +58,11 @@ provided.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Aug 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2e-1
++ Revision: 813491
+- Import texlive-fnpct
+- Import texlive-fnpct
+
