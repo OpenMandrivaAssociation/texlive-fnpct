@@ -6,7 +6,7 @@
 # catalog-version 0.2k
 Name:		texlive-fnpct
 Version:	0.2k
-Release:	3
+Release:	4
 Summary:	Manage footnote marks' interaction with punctuation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fnpct
