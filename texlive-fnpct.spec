@@ -1,12 +1,12 @@
-# revision 29795
+# revision 32474
 # category Package
 # catalog-ctan /macros/latex/contrib/fnpct
-# catalog-date 2013-04-08 10:17:07 +0200
+# catalog-date 2013-12-23 18:54:55 +0100
 # catalog-license lppl1.3
-# catalog-version 0.2k
+# catalog-version 0.4a
 Name:		texlive-fnpct
-Version:	0.2k
-Release:	5
+Version:	0.4a
+Release:	1
 Summary:	Manage footnote marks' interaction with punctuation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fnpct
@@ -36,18 +36,8 @@ provided.
 %files
 %{_texmfdistdir}/tex/latex/fnpct/fnpct.sty
 %doc %{_texmfdistdir}/doc/latex/fnpct/README
-%doc %{_texmfdistdir}/doc/latex/fnpct/bigfoot_ex.tex
-%doc %{_texmfdistdir}/doc/latex/fnpct/fixfoot_ex.tex
 %doc %{_texmfdistdir}/doc/latex/fnpct/fnpct_en.pdf
 %doc %{_texmfdistdir}/doc/latex/fnpct/fnpct_en.tex
-%doc %{_texmfdistdir}/doc/latex/fnpct/nested_ex.tex
-%doc %{_texmfdistdir}/doc/latex/fnpct/nested_ex_a.tex
-%doc %{_texmfdistdir}/doc/latex/fnpct/nested_ex_b.tex
-%doc %{_texmfdistdir}/doc/latex/fnpct/nested_ex_c.tex
-%doc %{_texmfdistdir}/doc/latex/fnpct/normal_ex.tex
-%doc %{_texmfdistdir}/doc/latex/fnpct/pagenote_ex.tex
-%doc %{_texmfdistdir}/doc/latex/fnpct/sepfootnotes_ex.tex
-%doc %{_texmfdistdir}/doc/latex/fnpct/tufte_ex.tex
 
 #-----------------------------------------------------------------------
 %prep
