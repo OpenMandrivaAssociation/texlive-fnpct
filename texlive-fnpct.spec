@@ -1,11 +1,11 @@
-# revision 32474
+# revision 33144
 # category Package
 # catalog-ctan /macros/latex/contrib/fnpct
-# catalog-date 2013-12-23 18:54:55 +0100
+# catalog-date 2014-03-10 13:15:59 +0100
 # catalog-license lppl1.3
-# catalog-version 0.4a
+# catalog-version 0.4b
 Name:		texlive-fnpct
-Version:	0.4a
+Version:	0.4b
 Release:	1
 Summary:	Manage footnote marks' interaction with punctuation
 Group:		Publishing
