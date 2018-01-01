@@ -1,9 +1,3 @@
-# revision 33144
-# category Package
-# catalog-ctan /macros/latex/contrib/fnpct
-# catalog-date 2014-03-10 13:15:59 +0100
-# catalog-license lppl1.3
-# catalog-version 0.4b
 Name:		texlive-fnpct
 Version:	0.4e
 Release:	1
@@ -34,10 +28,8 @@ provided.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/fnpct/fnpct.sty
-%doc %{_texmfdistdir}/doc/latex/fnpct/README
-%doc %{_texmfdistdir}/doc/latex/fnpct/fnpct_en.pdf
-%doc %{_texmfdistdir}/doc/latex/fnpct/fnpct_en.tex
+%{_texmfdistdir}/tex/latex/fnpct
+%doc %{_texmfdistdir}/doc/latex/fnpct
 
 #-----------------------------------------------------------------------
 %prep
