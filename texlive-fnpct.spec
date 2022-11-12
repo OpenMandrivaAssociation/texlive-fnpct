@@ -1,12 +1,12 @@
 Name:		texlive-fnpct
-Version:	0.4f
+Version:	62248
 Release:	1
 Summary:	Manage footnote marks' interaction with punctuation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fnpct
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fnpct.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fnpct.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fnpct.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fnpct.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -19,12 +19,12 @@ side effect, a change to the handling of multiple footnotes is
 provided.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -33,7 +33,7 @@ provided.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
