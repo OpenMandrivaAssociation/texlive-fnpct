@@ -1,6 +1,6 @@
 Name:		texlive-fnpct
 Version:	62248
-Release:	1
+Release:	2
 Summary:	Manage footnote marks' interaction with punctuation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fnpct
