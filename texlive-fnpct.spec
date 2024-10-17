@@ -3,7 +3,7 @@ Version:	62248
 Release:	2
 Summary:	Manage footnote marks' interaction with punctuation
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fnpct
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/fnpct
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fnpct.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fnpct.doc.r%{version}.tar.xz
